@@ -1,4 +1,4 @@
-# Introduction to GitHub Codespaces and git commands
+# Introduction to GitHub Codespaces and Git commands
 
 This activity is designed to prepare you for future Python labs where you will begin each exercise with a starter repository on GitHub. In those labs, you will open the repository in GitHub Codespaces, edit Python files, and run your code directly inside the Codespaces environment. You will also need to push your changes back to GitHub so your work is saved and visible to your instructor, and in some cases, you may need to pull updates from GitHub if new code or instructions are added after you start. By practicing these steps now, you will be able to focus on Python coding in future labs without worrying about learning Git and Codespaces workflow at the same time.
 
