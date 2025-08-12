@@ -1,4 +1,4 @@
-# GitHub Codespaces: Python Hello World (Editor + Terminal Git)
+# Introduction to GitHub Codespaces and git commands
 
 **Goal:**  
 1. Open a repository in GitHub Codespaces  
