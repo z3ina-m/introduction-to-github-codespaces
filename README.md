@@ -46,11 +46,14 @@ Hello, World!
 ---
 
 ## 4. View changes in Git
+Run the following command to see what changes Git has detected in your project:
+
 ```bash
 git status
 ```
-**Explanation:** shows which files were changed. You should see `hello_world.py` listed as modified.
+This command shows the current state of your working directory and staging area. After you edited hello_world.py in the Codespaces editor, that change exists only in your local Codespaces environment (a virtual machine running in the cloud). At this stage, Git knows the file has been modified, but the change has not yet been staged or committed. You should see hello_world.py listed as modified, which means Git has detected differences between your current file and the last saved version in the repository history.
 
+Now run the following command to stage this change so it’s ready to be committed.
 ---
 
 ## 5. Stage the change
