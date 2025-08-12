@@ -86,12 +86,12 @@ git log -n 3 --oneline
 ---
 
 ## 7. Push the commit to GitHub
+Now, run the following command to send your local commit to the GitHub repository:
 ```bash
 git push
-# if needed for first push:
-git push -u origin main
 ```
-**Explanation:** uploads your local commits to the GitHub repository.
+Explanation: Pushing uploads your local commits from the Codespaces environment to GitHub’s remote repository. This makes your changes available online, so you (and your instructor) can see them from GitHub’s website.
+
 
 ---
 
