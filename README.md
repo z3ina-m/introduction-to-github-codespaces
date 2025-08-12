@@ -10,7 +10,7 @@ This activity is designed to prepare you for future Python labs where you will b
 
 ---
 
-## 1 — Open the repo in Codespaces
+## 1. Open the repo in Codespaces
 1. On GitHub, open the repository your instructor provided.  
 2. Click **Code → Codespaces → Create codespace on `main`**.  
 3. Wait for the Codespace to finish loading.  
@@ -18,7 +18,7 @@ This activity is designed to prepare you for future Python labs where you will b
 
 ---
 
-## 2 — Check Python & run the program
+## 2. Check Python & run the program
 ```bash
 python --version     # or: python3 --version
 python hello_world.py    # or: python3 hello_world.py
@@ -30,7 +30,7 @@ Hello, World!
 
 ---
 
-## 3 — Edit the file in the Codespaces editor
+## 3. Edit the file in the Codespaces editor
 1. In the **Explorer** panel, click on `hello_world.py`.  
 2. Change the line:
    ```python
@@ -44,7 +44,7 @@ Hello, World!
 
 ---
 
-## 4 — View changes in Git
+## 4. View changes in Git
 ```bash
 git status
 ```
@@ -52,7 +52,7 @@ git status
 
 ---
 
-## 5 — Stage the change
+## 5. Stage the change
 ```bash
 git add hello_world.py
 ```
@@ -65,7 +65,7 @@ git status
 
 ---
 
-## 6 — Commit the change
+## 6. Commit the change
 ```bash
 git commit -m "Update greeting to <Your Name>"
 ```
@@ -78,7 +78,7 @@ git log -n 3 --oneline
 
 ---
 
-## 7 — Push the commit to GitHub
+## 7. Push the commit to GitHub
 ```bash
 git push
 # if needed for first push:
@@ -88,7 +88,7 @@ git push -u origin main
 
 ---
 
-## 8 — Make a change on GitHub (web)
+## 8. Make a change on GitHub (web)
 1. In your browser, open `hello_world.py` in the GitHub repo.  
 2. Click the pencil icon to edit.  
 3. Change the print message again.  
@@ -96,7 +96,7 @@ git push -u origin main
 
 ---
 
-## 9 — Pull the web change into Codespaces
+## 9. Pull the web change into Codespaces
 In the terminal:
 ```bash
 git pull origin main
@@ -110,7 +110,7 @@ python hello_world.py
 
 ---
 
-## 10 — Git command summary
+## 10. Git command summary
 - `git status` → See which files are changed/staged/untracked.  
 - `git add <file>` → Stage changes for commit.  
 - `git commit -m "message"` → Save staged changes locally.  
