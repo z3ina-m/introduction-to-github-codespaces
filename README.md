@@ -19,6 +19,7 @@ This activity is designed to prepare you for future Python labs where you will b
 ---
 
 ## 2. Check Python & run the program
+In the terminal run the following commands one after the other.
 ```bash
 python --version     # or: python3 --version
 python hello_world.py    # or: python3 hello_world.py
