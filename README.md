@@ -71,11 +71,13 @@ git status
 ---
 
 ## 6. Commit the change
+Next, run the following command to commit your staged change:
+
 ```bash
 git commit -m "Update greeting to <Your Name>"
 ```
-**Explanation:** saves a snapshot of the staged changes in your local repository.
-
+ A commit records your staged changes in the local Git history inside your Codespaces environment. This creates a permanent checkpoint in the project, with your custom message describing what you changed. At this stage, the commit still exists only locally — it is not yet on GitHub.
+ 
 Check recent commits:
 ```bash
 git log -n 3 --oneline
