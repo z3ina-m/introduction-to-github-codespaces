@@ -96,6 +96,9 @@ Explanation: Pushing uploads your local commits from the Codespaces environment 
 ---
 
 ## 8. Make a change on GitHub (web)
+In your web browser, go to your repository on GitHub, open the hello_world.py file, click Edit, make a small change (e.g., modify the message again), and then click Commit changes.
+This simulates a situation where changes are made directly on GitHub — perhaps by you from another device or by your instructor. These changes now exist only in the remote GitHub repository, not in your Codespaces environment.
+
 1. In your browser, open `hello_world.py` in the GitHub repo.  
 2. Click the pencil icon to edit.  
 3. Change the print message again.  
@@ -104,11 +107,12 @@ Explanation: Pushing uploads your local commits from the Codespaces environment 
 ---
 
 ## 9. Pull the web change into Codespaces
-In the terminal:
+Finally, run the following command in Codespaces to download the latest changes from GitHub:
+
 ```bash
 git pull origin main
 ```
-**Explanation:** downloads and merges the changes from GitHub into your Codespace.
+Pulling updates your local Codespaces environment with changes from the remote GitHub repository. This ensures you are working with the latest version of the project before you continue coding.
 
 Run the program again to confirm:
 ```bash
