@@ -52,15 +52,16 @@ Run the following command to see what changes Git has detected in your project:
 git status
 ```
 
-This command shows the current state of your working directory and staging area. After you edited hello_world.py in the Codespaces editor, that change exists only in your local Codespaces environment (a virtual machine running in the cloud). At this stage, Git knows the file has been modified, but the change has not yet been staged or committed. You should see hello_world.py listed as modified, which means Git has detected differences between your current file and the last saved version in the repository history. Now run the following command to stage this change so it’s ready to be committed.
+This command shows the current state of your working directory and staging area. After you edited hello_world.py in the Codespaces editor, that change exists only in your local Codespaces environment (a virtual machine running in the cloud). At this stage, Git knows the file has been modified, but the change has not yet been staged or committed. You should see hello_world.py listed as modified, which means Git has detected differences between your current file and the last saved version in the repository history. 
 
 ---
 
 ## 5. Stage the change
+Now run the following command to stage the modified file so Git knows you want to include it in the next commit:
 ```bash
 git add hello_world.py
 ```
-**Explanation:** marks the file’s current version for the next commit.
+Staging tells Git that this file should be part of the next snapshot of the project history. Right now, the change still exists only in your local Codespaces environment, but staging it is the first step toward saving it in the repository history.
 
 Check again:
 ```bash
